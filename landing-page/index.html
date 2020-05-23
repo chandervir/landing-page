@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OPERATING SYSTEM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>OPERATING SYSTEM </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" class="your-active-class">
+      <div class="landing__container">
+        <h2>Section 1</h2>
+        <h3><strong>AFFORDABILITY</strong></h3>
+        <p>Apple has always been at the high end of the market in terms of pricing, but the iPhone X took things to a whole new level with a starting price of $1,000 and the iPhone 11 Pro Max starts at $1,100. If you need something more affordable, the iPhone 11 starts from $700 and the latest iPhone SE from $400. That’s as cheap as it gets unless you delve into the secondhand market. For sheer scale and variety, nothing competes with Android. You can spend a lot if you want to, — for example, Samsung’s newest Z lineup costs nearly $1,400, but there’s also a huge selection of good, low-cost handsets from a wide variety of different manufacturers, and the platform has been deliberately optimized to run on low-end hardware. The fact that Android also leads the field in free apps makes it the natural choice for the budget-conscious</p>
+
+        <p>Winner: Android</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <h2>Section 2</h2>
+        <h3><strong>APPLICATIONS</strong></h3>
+        <p>Let’s start with a look at the numbers. This is roughly how many apps you’ll find in the Google Play Store and the Apple App Store: Android apps: 2.5 million iOS apps: 1.8 million Truthfully, numbers aren’t the best metric because most of us only use a handful of apps and the most popular ones are available on both platforms. Traditionally, iOS has been a more lucrative platform for developers, so there has been a tendency for new apps to appear there first, but that is changing as Android’s market share continues to grow. In the U.S., iOS still leads the way, but developers elsewhere are increasingly targeting Android first. Luckily, both operating systems have been taking more precautions when it comes to malicious apps and spyware, making apps safer to download than ever. The Play Store still has a higher percentage of free apps than the App Store. But the best mobile games still land on iOS first — and they don’t always come to Android. Ultimately, quality beats quantity and so this is a narrow win for iOS</p>
+
+        <p>Winner: iOS</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>Section 3</h2>
+        <h3><strong>UPDATES</strong></h3>
+        <p>Apple’s iOS offers consistent and timely software updates and security patches. If you want the same experience on Android, then you must buy one of Google’s Pixel phones. This is how iOS version shares break down according to the official Apple Developer website:
+
+iOS 12: 23%
+Earlier: 7%
+iOS 13: 70% Around 70% of all iOS devices are now running the latest version. That figure will be a lot lower for Android. While Android 11 is already open for public beta testing, only about 8% of Android devices are running the latest, Android 10. This is how Android breaks down according to the stats available in Android Studio, and is accurate up to May 2020.
+Android 10: 8.2%
+Android 9.0 Pie: 31.3%
+Android 8.1 Oreo: 14%
+Android 8.0 Oreo: 7.3%
+Android 7.1.1 Nougat: 5.4%
+Android 7.0 Nougat: 7.5%
+Older: 1.9%
+If you want the latest features, bug fixes, and security updates, then you should choose iOS.</p>
+
+        <p>Winner: iOS</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4">
+      <div class="landing__container">
+        <h2>Section 4</h2>
+        <h3><strong>CAMERA</strong></h3>
+        <p>This is a difficult category to call. In the past, we’ve argued that Apple does the best job capturing lighting, coloring, and other details, but the latest Android smartphones are casting a lot of doubt on that assertion. Google’s Pixel 4 and Pixel 4 XL boast excellent cameras, but so do the iPhone 11 Pro and 11 Pro Max. While most of the current crop of Android flagships sport good, or sometimes great, cameras, there’s a fair bit of variance and the camera quality of many midrange devices doesn’t come close to the quality of iPhone cameras. As you’d expect, most budget Android phones have lower-quality cameras. The camera apps on both platforms are very good and very fast. For ease of use and best results without tweaking, the iOS camera app takes the cake. There’s more variation on Android simply because manufacturers tend to add their own camera apps with lots of features, some good, some a bit gimmicky. We’re going to give this one to iOS, but with the caveat that the top Android phones, particularly the Pixel 4, can match — and in some areas excel — the iPhone.</p>
+
+        <p>Winner: iOS</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
